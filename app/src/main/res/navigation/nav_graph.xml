@@ -1,0 +1,27 @@
+<!-- res/navigation/nav_graph.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+   <!-- <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.robinson.checkinternetconnection.fragments.SplashFragment"
+        android:label="Second Fragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>-->
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.robinson.checkinternetconnection.fragments.MainFragment"
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_main">
+
+    </fragment>
+    <!--app:popUpTo="@id/splashFragment"
+    app:popUpToInclusive="true"-->
+</navigation>
